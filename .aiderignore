@@ -1,0 +1,28 @@
+# Files aider should never read or modify
+
+# Generated files
+generated/
+dist/
+build/
+.next/
+out/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Large data files
+*.csv
+*.sql
+*.dump

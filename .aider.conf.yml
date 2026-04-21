@@ -1,0 +1,25 @@
+## Aider configuration
+## https://aider.chat/docs/config/aider_conf.html
+
+# Model to use
+# model: gpt-4o
+
+# Auto-commit aider's changes
+auto-commits: true
+
+# Conventional commit messages
+# commit-prompt: "conventional"
+
+# Read coding conventions from this file
+read: CONVENTIONS.md
+
+# Show diffs before applying
+# show-diffs: true
+
+# Lint after every edit
+# lint: true
+# lint-cmd: "npm run lint"
+
+# Run tests after every edit
+# test: false
+# test-cmd: "npm test"

@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.aider.tags.cache.v3/
+.aider.chat.history.md
